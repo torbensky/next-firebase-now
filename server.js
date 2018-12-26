@@ -17,7 +17,7 @@ app.prepare()
         })
 
         server.get('*', (req, res) => {
-            console.log(fireadmin.app.name)
+            console.log(`Admin App: ${fireadmin.app.name}`)
             return handle(req, res)
         })
 

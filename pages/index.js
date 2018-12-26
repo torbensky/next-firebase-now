@@ -1,4 +1,4 @@
-import firebase from "firebase";
+import firebase from "firebase/app";
 
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
@@ -11,5 +11,8 @@ var config = {
 firebase.initializeApp(config);
 
 export default () => {
-    return <p>Hello, firebase</p>
+    return <div>
+        <p>Hello, firebase</p>
+        <p>App: {firebase.app.name}</p>
+    </div>
 }
