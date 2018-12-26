@@ -1,7 +1,7 @@
 {
-  "name": "next-firebase-now",
+  "name": "next-firebase-now-client",
   "version": "0.0.1",
-  "description": "A basic example of using firebase on Zeit Now platform",
+  "description": "A basic example of using firebase client side on Zeit Now platform",
   "repository": "https://github.com/torbensky/next-firebase-now",
   "author": "Torben",
   "license": "MIT",
@@ -9,7 +9,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "firebase": "^5.7.1",
-    "firebase-admin": "^6.4.0",
     "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"

@@ -1,0 +1,13 @@
+{
+  "name": "next-firebase-now-server",
+  "version": "1.0.0",
+  "description": "A basic example of using firebase admin on server side on Zeit Now platform",
+  "main": "index.js",
+  "repository": "https://github.com/torbensky/next-firebase-now",
+  "author": "Torben",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "firebase-admin": "^6.4.0"
+  }
+}
