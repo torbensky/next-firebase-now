@@ -1,0 +1,24 @@
+{
+  "name": "next-firebase-now",
+  "version": "0.0.1",
+  "description": "A basic example of using firebase on Zeit Now platform",
+  "repository": "https://github.com/torbensky/next-firebase-now",
+  "author": "Torben",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.4",
+    "firebase": "^5.7.1",
+    "firebase-admin": "^6.4.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js -p $PORT"
+  }
+}
