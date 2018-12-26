@@ -19,8 +19,8 @@
             "dest": "server/index.js"
         },
         {
-            "src": "/app(.*)",
-            "dest": "package.json"
+            "src": "/(.*)",
+            "dest": "/client/$1"
         }
     ]
 }

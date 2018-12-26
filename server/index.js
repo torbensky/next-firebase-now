@@ -11,7 +11,7 @@ admin.initializeApp({
 });
 
 module.exports = async (req, res) => {
-    const idToken = req.headers["X-Test-Token"];
+    const idToken = req.headers["x-test-token"];
 
     admin
         .auth()
