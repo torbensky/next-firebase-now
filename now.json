@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "public": true,
     "builds": [
         {
             "src": "server/index.js",
@@ -22,5 +23,9 @@
             "src": "/(.*)",
             "dest": "/client/$1"
         }
-    ]
+    ],
+  "github": {
+    "autoJobCancelation": true,
+    "enabled": true
+  }
 }
